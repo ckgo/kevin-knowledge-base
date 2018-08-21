@@ -37,6 +37,9 @@ public class CKMainListViewActivity extends CKCatalogBaseActivity {
             startActivity(in);
         } else if (position == 1) {
         } else if (position == 5) {
+            Intent in = new Intent(CKMainListViewActivity.this, CKRecyclerviewActivity.class);
+            startActivity(in);
+
         }
     }
 }

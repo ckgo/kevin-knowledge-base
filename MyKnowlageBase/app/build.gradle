@@ -17,14 +17,22 @@ android {
         }
     }
 }
-
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support:design:26.1.0'
+    implementation 'com.scwang.smartrefresh:SmartRefreshLayout:1.0.4-7'
+    implementation 'com.scwang.smartrefresh:SmartRefreshHeader:1.0.4-7'
     implementation 'com.android.support.constraint:constraint-layout:1.1.2'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:0.5'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:2.2.2'
-
     compile 'com.bigkoo:alertview:1.0.3'
+    compile 'com.android.support:recyclerview-v7:26.1.0'
+
+    //https://github.com/yanzhenjie/AndPermission 动态权限申请
+    compile 'com.yanzhenjie:permission:1.0.8'
+    implementation project(':lib_dialog')
+
+
 }

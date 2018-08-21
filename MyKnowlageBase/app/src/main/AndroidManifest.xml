@@ -19,7 +19,8 @@
         <activity android:name=".activity.dialog.CKDialogActivity" />
         <activity android:name=".activity.listview.CKMainListViewActivity" />
         <activity android:name=".activity.listview.CKListViewActivity" />
-        <activity android:name=".activity.listview.CKRecyclerviewActivity"/>
+        <activity android:name=".activity.listview.CKRecyclerviewActivity" />
+        <activity android:name=".activity.dialog.CKPopWinActivity"></activity>
     </application>
 
 </manifest>

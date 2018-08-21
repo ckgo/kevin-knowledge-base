@@ -6,10 +6,43 @@
     android:layout_height="match_parent"
     tools:context="base.knowlage.com.myknowlagebase.activity.listview.CKRecyclerviewActivity">
 
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/id_recyclerview"
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:id="@+id/refreshLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:divider="#ff0000"
-        android:dividerHeight="10dp" />
+        app:srlAccentColor="#00000000"
+        app:srlEnablePreviewInEditMode="true"
+        app:srlPrimaryColor="#00000000">
+        <!--
+        app:srlAccentColor="#00000000"//设置Header主题颜色
+        app:srlPrimaryColor="#00000000"//设置Footer主题颜色
+        app:srlEnablePreviewInEditMode="true"//开启和关闭预览功能
+        -->
+        <!-- 酷炫的刷新头部 把RecyclerView控件放中间
+        <com.scwang.smartrefresh.header.PhoenixHeader
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.scwang.smartrefresh.layout.footer.BallPulseFooter
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />-->
+
+        <com.scwang.smartrefresh.layout.header.ClassicsHeader
+            android:id="@+id/headerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="#ff0000"
+            android:dividerHeight="10dp" />
+
+        <com.scwang.smartrefresh.layout.footer.ClassicsFooter
+            android:id="@+id/footerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
 </android.support.constraint.ConstraintLayout>
