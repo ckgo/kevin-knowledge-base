@@ -28,3 +28,8 @@ https://github.com/H07000223/FlycoTabLayout
 
 util常用工具类
 https://github.com/570622566/FastAndrUtils
+
+微信amr to mp3
+https://github.com/zhangchenghai2015/weixin_silk_2_mp3
+
+
