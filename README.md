@@ -32,4 +32,7 @@ https://github.com/570622566/FastAndrUtils
 微信amr to mp3
 https://github.com/zhangchenghai2015/weixin_silk_2_mp3
 
+APP保活方案：
+https://github.com/xingda920813/HelloDaemon
+
 
