@@ -35,4 +35,6 @@ https://github.com/zhangchenghai2015/weixin_silk_2_mp3
 APP保活方案：
 https://github.com/xingda920813/HelloDaemon
 
+项目学习：
+https://github.com/yangchong211/LifeHelper
 
